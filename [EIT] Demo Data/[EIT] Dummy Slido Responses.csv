@@ -1,0 +1,51 @@
+Poll Question,Poll Option,Combined
+What is the difference between L1 and L2 loss?,!!!!,1
+What is the difference between L1 and L2 loss?,dawg,1
+What is the difference between L1 and L2 loss?,chicken nugget ,1
+What is the difference between L1 and L2 loss?,meow,1
+What is the difference between L1 and L2 loss?,:) ,1
+What is the difference between L1 and L2 loss?,a 1 vs 2 ,1
+What is the difference between L1 and L2 loss?,lol dunno,1
+What is the difference between L1 and L2 loss?,h ,1
+What is the difference between L1 and L2 loss?,good q ,1
+What is the difference between L1 and L2 loss?,loss,1
+What is the difference between L1 and L2 loss?,functions are diff,2
+What is the difference between L1 and L2 loss?,l2 has a square,2
+What is the difference between L1 and L2 loss?,l1 has absolute val,2
+What is the difference between L1 and L2 loss?,mean vs median ,2
+What is the difference between L1 and L2 loss?,impact by outliers ,2
+What is the difference between L1 and L2 loss?,diff functions,2
+What is the difference between L1 and L2 loss?,abs vs square,2
+What is the difference between L1 and L2 loss?,diff optimizers,2
+What is the difference between L1 and L2 loss?,l1 is median,2
+What is the difference between L1 and L2 loss?,median mean ,2
+What is the difference between L1 and L2 loss?,l2 penalizes more than l1,3
+What is the difference between L1 and L2 loss?,hard to differentiate l1 since not smooth,3
+What is the difference between L1 and L2 loss?,l2 supports convexity and is smooth ,3
+What is the difference between L1 and L2 loss?,l2 used for ols which minimizes mse ,3
+What is the difference between L1 and L2 loss?,l1 drives thetas to zero,3
+What is the difference between L1 and L2 loss?,l1 encourages sparsity,3
+What is the difference between L1 and L2 loss?,l2 is prone to outliers ,3
+What is the difference between L1 and L2 loss?,l1 good for feature selection,3
+What is the difference between L1 and L2 loss?,l2 has closed form sol,3
+What is the difference between L1 and L2 loss?,l2 is more sensitive ,3
+What is the difference between L1 and L2 loss?,"mse using l2 loss and is always convex, l1 is mae",4
+What is the difference between L1 and L2 loss?,"l1 corresponds to mae and l2 to mse, so one abs and one square",4
+What is the difference between L1 and L2 loss?,l2 squares the residuals and l1 takes absolute val,4
+What is the difference between L1 and L2 loss?,l2 in ols gives us normal equation and l1 isnt used ,4
+What is the difference between L1 and L2 loss?,geometrically l2 is a sphere and l1 is a diamond,4
+What is the difference between L1 and L2 loss?,l1 forces some coefficients to 0 which l2 doesnt really do ,4
+What is the difference between L1 and L2 loss?,l2 is used more often than l1 because closed form,4
+What is the difference between L1 and L2 loss?,one is absolute val and the other is square ,4
+What is the difference between L1 and L2 loss?,l2 is very similar to the mse and l1 is like mae,4
+What is the difference between L1 and L2 loss?,l1 is median for optimal theta and l2 is mean ,4
+What is the difference between L1 and L2 loss?,l1 encourages sparsity which could be helpful for detecting irrelevant features and l2 is more robust. main issues with l1 is that it is not differentiable everywhere.  ,5
+What is the difference between L1 and L2 loss?,"l2 has a closed form solution because it is the sum of convex functions and we can easily take the derivative, where as l1 has an absolute value which may be undefined",5
+What is the difference between L1 and L2 loss?,"l1 is more robust to outliers because the differences are not squared, and l2 penalizes less, but because of the convexity and differentiability of l2, l2 is generally easier to use",5
+What is the difference between L1 and L2 loss?,l1 takes the absolute value and l2 takes the differences squared. both result in different optimal thetas because of the way they penalize errors ,5
+What is the difference between L1 and L2 loss?,"l1's minimizer is the median of the data when using a constant model, whereas l2 is the mean of the data or observations y ",5
+What is the difference between L1 and L2 loss?,"l1 drives some theta values to zero, which is helpful for feature selection, and l2 does not do this as much. we can think of l2 geometrically as spherical and l1 as a diamond ",5
+What is the difference between L1 and L2 loss?,"l2 has a closed form solution because we can easily take the derivative and solve for theta. l1 may be undefined at the cusp or sharp turn, so its hard to easily solve for theta",5
+What is the difference between L1 and L2 loss?,"l1 and l2 both have residuals in the loss function, but l2 squares the residuals and l1 takes the absolute value of the residuals ",5
+What is the difference between L1 and L2 loss?,"for a constant model, l2 or mse will give us the mean as the optimal theta, and l1 or mae will give us the median of the observations",5
+What is the difference between L1 and L2 loss?,"l2 is generally easier to deal with because we can easily solve for the optimal parameter by differentiating. also, l2 is used for OLS (mse), and we haven't discussed much about l1 for ols besides regularization though. ",5
